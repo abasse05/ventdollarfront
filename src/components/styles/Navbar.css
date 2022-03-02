@@ -1,0 +1,9 @@
+.navbar-brand {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 15px;
+    }
+}

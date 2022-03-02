@@ -1,0 +1,17 @@
+nav {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity))!important;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    nav {
+        font-size: 10px;
+    }
+}

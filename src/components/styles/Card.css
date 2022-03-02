@@ -1,0 +1,17 @@
+.borderless td,
+.borderless th {
+    border: none;
+}
+
+.cards {
+    opacity: 0.6;
+    color: cornsilk;
+    width: 18rem;
+}
+
+@media screen and (max-width: 420px) {
+    .cards {
+        display: block;
+        margin: 10px auto;
+    }
+}

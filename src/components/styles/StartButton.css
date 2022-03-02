@@ -1,0 +1,39 @@
+#buttonconnect {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#buttoninscrit {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-contain {
+    padding: 30% 5px;
+}
+
+@media screen and (max-width: 920px) {
+    #buttonconnect,
+    #buttoninscrit {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #buttonconnect,
+    #buttoninscrit {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .button-contain {
+        display: inline;
+        padding: 10% 5px;
+    }
+    #buttonconnect {
+        font-size: 15px;
+    }
+}

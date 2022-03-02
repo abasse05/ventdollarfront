@@ -1,0 +1,46 @@
+.containersespace {
+    background-image: url("../assets/img/account.jpeg");
+    background-repeat: no-repeat;
+    margin-right: 0;
+    margin-left: 0;
+    height: 750px;
+    padding: 3%;
+    background-size: cover;
+}
+
+.profil {
+    height: 540px;
+    box-shadow: 10px 0px 5px black;
+}
+
+.contenu {
+    height: 540px;
+    box-shadow: 10px 0px 5px black;
+}
+
+.contenu .row {
+    padding: 8%;
+}
+
+@media screen and (max-width: 768px) {
+    .containersespace {
+        height: 1100px;
+    }
+    .profil,
+    .contenu {
+        display: table;
+        box-shadow: none;
+    }
+    .contenu {
+        height: 1000px;
+    }
+    .contenu .row {
+        height: 1000px;
+    }
+    .col-gauche,
+    .col-droite {
+        display: table;
+        margin: 10px auto;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,43 @@
+.containers {
+    background-image: url("../assets/img/img-home.jpg");
+    background-repeat: no-repeat;
+    margin-right: 0;
+    margin-left: 0;
+    height: 550px;
+    padding: 6%;
+    /*background-size: cover; */
+}
+
+.blocks {
+    padding: 20px;
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 768px) {
+    .blocks {
+        font-size: 10px;
+        display: block;
+    }
+    .containers {
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .blocks {
+        font-size: 15px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .blocks {
+        font-size: 10px;
+    }
+    .containers {
+        height: 650px;
+    }
+    .col-containers {
+        display: block;
+    }
+}
